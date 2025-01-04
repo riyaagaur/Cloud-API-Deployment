@@ -1,0 +1,1661 @@
+Last login: Sat Jan  4 09:12:21 on ttys000
+/dev/fd/12:18: command not found: compdef
+(base) riyagaur@Riyas-MacBook flask app % heroku login
+
+heroku: Press any key to open up the browser to login or q to exit: 
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/e3b0c9cd-17d9-459b-a87c-7830ca12159b?requestor=SFMyNTY.g2gDbQAAAA0xNS4xNTguMzUuMjAwbgYA-LK1MZQBYgABUYA.d85d6UtWVFiVS4sEQKnwLBgGmCbbjeYWvXQUDy8zimM
+heroku: Waiting for login... ⣟
+heroku: Waiting for login... ⡿
+heroku: Waiting for login... ⢿
+heroku: Waiting for login... done
+(base) riyagaur@Riyas-MacBook flask app % git init
+
+Initialized empty Git repository in /Users/riyagaur/Downloads/flask app/.git/
+(base) riyagaur@Riyas-MacBook flask app % heroku create your-app-name
+
+Creating ⬢ your-app-name... ?
+heroku: Press any key to open up the browser to login or q to exit: Creating ⬢ your-app
+Creating ⬢ your-app-name... !
+ ›   Error: ctrl-c
+(base) riyagaur@Riyas-MacBook flask app % heroku create Key 1        
+ ›   Error: Unexpected argument: 1
+ ›   See more help with --help
+(base) riyagaur@Riyas-MacBook flask app % heroku create wine q
+ ›   Error: Unexpected argument: q
+ ›   See more help with --help
+(base) riyagaur@Riyas-MacBook flask app % heroku create wine-q
+Creating ⬢ wine-q... ?
+heroku: Press any key to open up the browser to login or q to exit: Creating ⬢ wine-q..
+Creating ⬢ wine-q... ⡿
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/02a8fc29-7b83-4132-a89e-054dbf4f2465?requestor=SFMyNTY.g2gDbQAAAA0xNS4xNTguMzUuMjQ2bgYA0F-9MZQBYgABUYA.jPOZW93heroku: Waiting for login... done
+(base) riyagaur@Riyas-MacBook flask app % heroku create wine-q
+Creating ⬢ wine-q... ?
+heroku: Press any key to open up the browser to login or q to exit: Creating ⬢ wine-q..
+Creating ⬢ wine-q... ⢿
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/80d2ef8e-715b-4c0f-b32e-87b067dad214?requestor=SFMyNTY.g2gDbQAAAA0xNS4xNTguMzUuMjQ0bgYAYL--MZQBYgABUYA.SvgmQutheroku: Waiting for login... done
+(base) riyagaur@Riyas-MacBook flask app % heroku login               
+
+heroku: Press any key to open up the browser to login or q to exit: 
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/356d7d74-00ac-40a7-8f05-fdf91d8ba835?requestor=SFMyNTY.g2gDbQAAAA0xNS4xNTguMzUuMjQ2bgYAGLPCMZQBYgABUYA.pPTtgn1OWnXDhaMIJ9Dwme6d25L6fdnQ6IvR0TARLAg
+heroku: Waiting for login... done
+(base) riyagaur@Riyas-MacBook flask app % heroku create wine-q
+Creating ⬢ wine-q... ?
+heroku: Press any key to open up the browser to login or q to exit: Creating ⬢ wine-q..
+Creating ⬢ wine-q... ⢿
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/8caab8eb-f915-4d06-9060-b36197b7f9c9?requestor=SFMyNTY.g2gDbQAAAA0xNS4xNTguMzUuMjAwbgYAAI3JMZQBYgABUYA.UC3EabxLogging in... done
+ ›   Error: To create an app, verify your account by adding payment information. 
+ ›   Verify now at https://heroku.com/verify Learn more at 
+ ›   https://devcenter.heroku.com/articles/account-verification 
+ ›
+ ›   Error ID: verification_required
+(base) riyagaur@Riyas-MacBook flask app % git add .
+git commit -m "Initial commit"
+
+[main (root-commit) 6890a50] Initial commit
+ Committer: Riya Gaur <riyagaur@Riyas-MacBook.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 14 files changed, 7100 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 Procfile
+ create mode 100644 "Screenshot 2024-12-28 at 11.45.32\342\200\257AM.png"
+ create mode 100644 "Screenshot 2024-12-28 at 11.48.24\342\200\257AM.png"
+ create mode 100644 "Screenshot 2024-12-28 at 11.55.43\342\200\257AM.png"
+ create mode 100644 Terminal Saved Output.txt
+ create mode 100644 app.py
+ create mode 100644 requirements.txt
+ create mode 100644 save_model.py
+ create mode 100644 wine+quality.zip
+ create mode 100755 wine+quality/winequality-red.csv
+ create mode 100755 wine+quality/winequality-white.csv
+ create mode 100755 wine+quality/winequality.names
+ create mode 100644 wine_quality_model.pkl
+(base) riyagaur@Riyas-MacBook flask app % git config --global user.name "riyaagaur"
+git config --global user.email "rheagaur12@gmail.com"
+(base) riyagaur@Riyas-MacBook flask app % heroku git:remote -a wine-q       
+
+ ›   Error: Couldn't find that app.
+ ›
+ ›   Error ID: not_found
+(base) riyagaur@Riyas-MacBook flask app % heroku create wine-q       
+Creating ⬢ wine-q... !
+ ›   Error: To create an app, verify your account by adding payment information. 
+ ›   Verify now at https://heroku.com/verify Learn more at 
+ ›   https://devcenter.heroku.com/articles/account-verification 
+ ›
+ ›   Error ID: verification_required
+(base) riyagaur@Riyas-MacBook flask app % heroku create wine-q
+Creating ⬢ wine-q... done
+https://wine-q-6183667d8f14.herokuapp.com/ | https://git.heroku.com/wine-q.git
+(base) riyagaur@Riyas-MacBook flask app % heroku git:remote -a wine-q       
+set git remote heroku to https://git.heroku.com/wine-q.git
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main
+
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (17/17), 1.51 MiB | 8.47 MiB/s, done.
+Total 17 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: Updated 14 paths from e6efa72
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Python app detected
+remote: -----> No Python version was specified. Using the buildpack default: Python 3.13
+remote:        To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing Python 3.13.1
+remote: -----> Installing pip 24.3.1
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Processing /home/ktietz/src/ci/alabaster_1611921544520/work (from -r requirements.txt (line 2))
+remote:        ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/home/ktietz/src/ci/alabaster_1611921544520/work'
+remote:        
+remote: 
+remote:  !     Error: Unable to install dependencies using pip.
+remote:  !     
+remote:  !     See the log output above for more information.
+remote: 
+remote:  !     Push rejected, failed to compile Python app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to wine-q.
+remote: 
+To https://git.heroku.com/wine-q.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/wine-q.git'
+(base) riyagaur@Riyas-MacBook flask app % pip install gunicorn
+
+Collecting gunicorn
+  Downloading gunicorn-23.0.0-py3-none-any.whl (85 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.0/85.0 kB 1.0 MB/s eta 0:00:00
+Requirement already satisfied: packaging in /opt/anaconda3/lib/python3.9/site-packages (from gunicorn) (21.0)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/anaconda3/lib/python3.9/site-packages (from packaging->gunicorn) (3.0.4)
+Installing collected packages: gunicorn
+Successfully installed gunicorn-23.0.0
+(base) riyagaur@Riyas-MacBook flask app % pip freeze > requirements.txt
+
+(base) riyagaur@Riyas-MacBook flask app % git add requirements.txt
+git commit -m "Added Gunicorn to requirements"
+
+[main 3bef982] Added Gunicorn to requirements
+ 1 file changed, 1 insertion(+)
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main
+
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (20/20), 1.51 MiB | 11.00 MiB/s, done.
+Total 20 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Updated 14 paths from 51a2c66
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Python app detected
+remote: -----> No Python version was specified. Using the buildpack default: Python 3.13
+remote:        To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing Python 3.13.1
+remote: -----> Installing pip 24.3.1
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Processing /home/ktietz/src/ci/alabaster_1611921544520/work (from -r requirements.txt (line 2))
+remote:        ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/home/ktietz/src/ci/alabaster_1611921544520/work'
+remote:        
+remote: 
+remote:  !     Error: Unable to install dependencies using pip.
+remote:  !     
+remote:  !     See the log output above for more information.
+remote: 
+remote:  !     Push rejected, failed to compile Python app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to wine-q.
+remote: 
+To https://git.heroku.com/wine-q.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/wine-q.git'
+(base) riyagaur@Riyas-MacBook flask app % pip uninstall flask
+
+Found existing installation: Flask 1.1.2
+Uninstalling Flask-1.1.2:
+  Would remove:
+    /opt/anaconda3/bin/flask
+    /opt/anaconda3/lib/python3.9/site-packages/Flask-1.1.2.dist-info/*
+    /opt/anaconda3/lib/python3.9/site-packages/flask/*
+Proceed (Y/n)? n
+(base) riyagaur@Riyas-MacBook flask app % pip install flask
+
+Requirement already satisfied: flask in /opt/anaconda3/lib/python3.9/site-packages (1.1.2)
+Requirement already satisfied: click>=5.1 in /opt/anaconda3/lib/python3.9/site-packages (from flask) (8.0.3)
+Requirement already satisfied: itsdangerous>=0.24 in /opt/anaconda3/lib/python3.9/site-packages (from flask) (2.0.1)
+Requirement already satisfied: Werkzeug>=0.15 in /opt/anaconda3/lib/python3.9/site-packages (from flask) (2.0.2)
+Requirement already satisfied: Jinja2>=2.10.1 in /opt/anaconda3/lib/python3.9/site-packages (from flask) (2.11.3)
+Requirement already satisfied: MarkupSafe>=0.23 in /opt/anaconda3/lib/python3.9/site-packages (from Jinja2>=2.10.1->flask) (1.1.1)
+(base) riyagaur@Riyas-MacBook flask app % pip freeze > requirements.txt
+
+(base) riyagaur@Riyas-MacBook flask app % pip uninstall flask          
+
+Found existing installation: Flask 1.1.2
+Uninstalling Flask-1.1.2:
+  Would remove:
+    /opt/anaconda3/bin/flask
+    /opt/anaconda3/lib/python3.9/site-packages/Flask-1.1.2.dist-info/*
+    /opt/anaconda3/lib/python3.9/site-packages/flask/*
+Proceed (Y/n)? y
+  Successfully uninstalled Flask-1.1.2
+(base) riyagaur@Riyas-MacBook flask app % pip install flask            
+
+Collecting flask
+  Using cached flask-3.1.0-py3-none-any.whl (102 kB)
+Collecting blinker>=1.9
+  Using cached blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Requirement already satisfied: importlib-metadata>=3.6 in /opt/anaconda3/lib/python3.9/site-packages (from flask) (4.8.1)
+Collecting itsdangerous>=2.2
+  Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Collecting Werkzeug>=3.1
+  Using cached werkzeug-3.1.3-py3-none-any.whl (224 kB)
+Collecting Jinja2>=3.1.2
+  Using cached jinja2-3.1.5-py3-none-any.whl (134 kB)
+Collecting click>=8.1.3
+  Using cached click-8.1.8-py3-none-any.whl (98 kB)
+Requirement already satisfied: zipp>=0.5 in /opt/anaconda3/lib/python3.9/site-packages (from importlib-metadata>=3.6->flask) (3.6.0)
+Collecting MarkupSafe>=2.0
+  Using cached MarkupSafe-3.0.2-cp39-cp39-macosx_10_9_universal2.whl (14 kB)
+Installing collected packages: MarkupSafe, itsdangerous, click, blinker, Werkzeug, Jinja2, flask
+  Attempting uninstall: MarkupSafe
+    Found existing installation: MarkupSafe 1.1.1
+    Uninstalling MarkupSafe-1.1.1:
+      Successfully uninstalled MarkupSafe-1.1.1
+  Attempting uninstall: itsdangerous
+    Found existing installation: itsdangerous 2.0.1
+    Uninstalling itsdangerous-2.0.1:
+      Successfully uninstalled itsdangerous-2.0.1
+  Attempting uninstall: click
+    Found existing installation: click 8.0.3
+    Uninstalling click-8.0.3:
+      Successfully uninstalled click-8.0.3
+  Attempting uninstall: Werkzeug
+    Found existing installation: Werkzeug 2.0.2
+    Uninstalling Werkzeug-2.0.2:
+      Successfully uninstalled Werkzeug-2.0.2
+  Attempting uninstall: Jinja2
+    Found existing installation: Jinja2 2.11.3
+    Uninstalling Jinja2-2.11.3:
+      Successfully uninstalled Jinja2-2.11.3
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+anaconda-project 0.10.1 requires ruamel-yaml, which is not installed.
+cookiecutter 1.7.2 requires Jinja2<3.0.0, but you have jinja2 3.1.5 which is incompatible.
+cookiecutter 1.7.2 requires MarkupSafe<2.0.0, but you have markupsafe 3.0.2 which is incompatible.
+Successfully installed Jinja2-3.1.5 MarkupSafe-3.0.2 Werkzeug-3.1.3 blinker-1.9.0 click-8.1.8 flask-3.1.0 itsdangerous-2.2.0
+(base) riyagaur@Riyas-MacBook flask app % pip freeze > requirements.txt
+
+(base) riyagaur@Riyas-MacBook flask app % git add requirements.txt
+git commit -m "Fixed Flask dependency"
+
+[main e24723d] Fixed Flask dependency
+ 1 file changed, 7 insertions(+), 6 deletions(-)
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main
+
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (23/23), 1.51 MiB | 11.00 MiB/s, done.
+Total 23 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Updated 14 paths from d28b2dc
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Python app detected
+remote: -----> No Python version was specified. Using the buildpack default: Python 3.13
+remote:        To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing Python 3.13.1
+remote: -----> Installing pip 24.3.1
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Processing /home/ktietz/src/ci/alabaster_1611921544520/work (from -r requirements.txt (line 2))
+remote:        ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/home/ktietz/src/ci/alabaster_1611921544520/work'
+remote:        
+remote: 
+remote:  !     Error: Unable to install dependencies using pip.
+remote:  !     
+remote:  !     See the log output above for more information.
+remote: 
+remote:  !     Push rejected, failed to compile Python app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to wine-q.
+remote: 
+To https://git.heroku.com/wine-q.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/wine-q.git'
+(base) riyagaur@Riyas-MacBook flask app % heroku logs --tail
+
+2025-01-04T15:09:05.343995+00:00 app[api]: Release v1 created by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:09:05.343995+00:00 app[api]: Initial release by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:09:05.559719+00:00 app[api]: Release v2 created by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:09:05.559719+00:00 app[api]: Enable Logplex by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:10:05.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:10:14.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/23baf42a-8d95-45e4-9d09-a7970c262866
+2025-01-04T15:14:54.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:15:03.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/eca6299a-1468-4df4-88d3-3eaa2f26fc09
+2025-01-04T15:20:00.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:20:08.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/6363481f-fcf2-4c55-beb2-331db1a668d9
+^C%                                                                                    (base) riyagaur@Riyas-MacBook flask app % python --version
+Python 3.9.7
+(base) riyagaur@Riyas-MacBook flask app % pip install Flask==2.2.2
+pip freeze > requirements.txt
+
+Collecting Flask==2.2.2
+  Downloading Flask-2.2.2-py3-none-any.whl (101 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 101.5/101.5 kB 1.3 MB/s eta 0:00:00
+Requirement already satisfied: click>=8.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2) (8.1.8)
+Requirement already satisfied: itsdangerous>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2) (2.2.0)
+Requirement already satisfied: Werkzeug>=2.2.2 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2) (3.1.3)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2) (4.8.1)
+Requirement already satisfied: Jinja2>=3.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2) (3.1.5)
+Requirement already satisfied: zipp>=0.5 in /opt/anaconda3/lib/python3.9/site-packages (from importlib-metadata>=3.6.0->Flask==2.2.2) (3.6.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from Jinja2>=3.0->Flask==2.2.2) (3.0.2)
+Installing collected packages: Flask
+  Attempting uninstall: Flask
+    Found existing installation: Flask 3.1.0
+    Uninstalling Flask-3.1.0:
+      Successfully uninstalled Flask-3.1.0
+Successfully installed Flask-2.2.2
+(base) riyagaur@Riyas-MacBook flask app % gunicorn -b 0.0.0.0:5000 app:app
+
+[2025-01-04 10:29:27 -0500] [15577] [INFO] Starting gunicorn 23.0.0
+[2025-01-04 10:29:27 -0500] [15577] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:29:27 -0500] [15577] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:29:28 -0500] [15577] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:29:28 -0500] [15577] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:29:29 -0500] [15577] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:29:29 -0500] [15577] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:29:30 -0500] [15577] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:29:30 -0500] [15577] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:29:31 -0500] [15577] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:29:31 -0500] [15577] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:29:32 -0500] [15577] [ERROR] Can't connect to ('0.0.0.0', 5000)
+(base) riyagaur@Riyas-MacBook flask app % git add requirements.txt runtime.txt Procfile 
+git commit -m "Update dependencies and runtime"
+
+fatal: pathspec 'runtime.txt' did not match any files
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   requirements.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) riyagaur@Riyas-MacBook flask app % git add requirements.txt runtime.txt Procfile 
+git commit -m "Update dependencies and runtime"
+
+fatal: pathspec 'runtime.txt' did not match any files
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Procfile
+	modified:   requirements.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main
+
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (23/23), 1.51 MiB | 11.00 MiB/s, done.
+Total 23 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Updated 14 paths from d28b2dc
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Python app detected
+remote: -----> No Python version was specified. Using the buildpack default: Python 3.13
+remote:        To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing Python 3.13.1
+remote: -----> Installing pip 24.3.1
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Processing /home/ktietz/src/ci/alabaster_1611921544520/work (from -r requirements.txt (line 2))
+remote:        ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/home/ktietz/src/ci/alabaster_1611921544520/work'
+remote:        
+remote: 
+remote:  !     Error: Unable to install dependencies using pip.
+remote:  !     
+remote:  !     See the log output above for more information.
+remote: 
+remote:  !     Push rejected, failed to compile Python app.
+remote: 
+remote:  !     Push failed
+remote:  !
+remote:  ! ## Warning - The same version of this code has already been built: e24723d397fe82634cf87e9597f3271b7dfba3cc
+remote:  !
+remote:  ! We have detected that you have triggered a build from source code with version e24723d397fe82634cf87e9597f3271b7dfba3cc
+remote:  ! at least twice. One common cause of this behavior is attempting to deploy code from a different branch.
+remote:  !
+remote:  ! If you are developing on a branch and deploying via git you must run:
+remote:  !
+remote:  !     git push heroku <branchname>:main
+remote:  !
+remote:  ! This article goes into details on the behavior:
+remote:  !   https://devcenter.heroku.com/articles/duplicate-build-version
+remote: 
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to wine-q.
+remote: 
+To https://git.heroku.com/wine-q.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/wine-q.git'
+(base) riyagaur@Riyas-MacBook flask app % pip install -r requirements.txt
+
+Processing /tmp/build/80754af9/numpydoc_1605117425582/work
+ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/private/tmp/build/80754af9/numpydoc_1605117425582/work'
+
+(base) riyagaur@Riyas-MacBook flask app % pip install -r requirements.txt
+
+Requirement already satisfied: Flask==2.2.2 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (2.2.2)
+Requirement already satisfied: gunicorn==23.0.0 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (23.0.0)
+Requirement already satisfied: numpy==1.22.4 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 3)) (1.22.4)
+Requirement already satisfied: scikit-image==0.18.3 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 4)) (0.18.3)
+Requirement already satisfied: scikit-learn==1.6.0 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (1.6.0)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (4.8.1)
+Requirement already satisfied: Werkzeug>=2.2.2 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (3.1.3)
+Requirement already satisfied: click>=8.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (8.1.8)
+Requirement already satisfied: itsdangerous>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (2.2.0)
+Requirement already satisfied: Jinja2>=3.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (3.1.5)
+Requirement already satisfied: packaging in /opt/anaconda3/lib/python3.9/site-packages (from gunicorn==23.0.0->-r requirements.txt (line 2)) (21.0)
+Requirement already satisfied: scipy>=1.0.1 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (1.7.1)
+Requirement already satisfied: matplotlib!=3.0.0,>=2.0.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (3.4.3)
+Requirement already satisfied: networkx>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (2.6.3)
+Requirement already satisfied: pillow!=7.1.0,!=7.1.1,>=4.3.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (8.4.0)
+Requirement already satisfied: imageio>=2.3.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (2.9.0)
+Requirement already satisfied: tifffile>=2019.7.26 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (2021.7.2)
+Requirement already satisfied: PyWavelets>=1.1.1 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (1.1.1)
+Requirement already satisfied: joblib>=1.2.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-learn==1.6.0->-r requirements.txt (line 5)) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-learn==1.6.0->-r requirements.txt (line 5)) (3.5.0)
+Requirement already satisfied: zipp>=0.5 in /opt/anaconda3/lib/python3.9/site-packages (from importlib-metadata>=3.6.0->Flask==2.2.2->-r requirements.txt (line 1)) (3.6.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from Jinja2>=3.0->Flask==2.2.2->-r requirements.txt (line 1)) (3.0.2)
+Requirement already satisfied: pyparsing>=2.2.1 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (3.0.4)
+Requirement already satisfied: python-dateutil>=2.7 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (2.8.2)
+Requirement already satisfied: cycler>=0.10 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (0.10.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (1.3.1)
+Requirement already satisfied: six in /opt/anaconda3/lib/python3.9/site-packages (from cycler>=0.10->matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (1.16.0)
+(base) riyagaur@Riyas-MacBook flask app % git add requirements.txt
+git commit -m "Cleaned up requirements.txt"
+
+[main 01a7cda] Cleaned up requirements.txt
+ 1 file changed, 2 insertions(+), 358 deletions(-)
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main
+
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (26/26), 1.51 MiB | 11.00 MiB/s, done.
+Total 26 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Updated 14 paths from 223ee65
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Python app detected
+remote: -----> No Python version was specified. Using the buildpack default: Python 3.13
+remote:        To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing Python 3.13.1
+remote: -----> Installing pip 24.3.1
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Collecting Flask==2.2.2 (from -r requirements.txt (line 1))
+remote:          Downloading Flask-2.2.2-py3-none-any.whl.metadata (3.9 kB)
+remote:        Collecting gunicorn==23.0.0 (from -r requirements.txt (line 2))
+remote:          Downloading gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)
+remote:        Collecting numpy==1.22.4 (from -r requirements.txt (line 3))
+remote:          Downloading numpy-1.22.4.zip (11.5 MB)
+remote:          Installing build dependencies: started
+remote:          Installing build dependencies: finished with status 'done'
+remote:          Getting requirements to build wheel: started
+remote:          Getting requirements to build wheel: finished with status 'done'
+remote:        ERROR: Exception:
+remote:        Traceback (most recent call last):
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/cli/base_command.py", line 105, in _run_wrapper
+remote:            status = _inner_run()
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/cli/base_command.py", line 96, in _inner_run
+remote:            return self.run(options, args)
+remote:                   ~~~~~~~~^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/cli/req_command.py", line 67, in wrapper
+remote:            return func(self, options, args)
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/commands/install.py", line 379, in run
+remote:            requirement_set = resolver.resolve(
+remote:                reqs, check_supported_wheels=not options.target_dir
+remote:            )
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/resolver.py", line 95, in resolve
+remote:            result = self._result = resolver.resolve(
+remote:                                    ~~~~~~~~~~~~~~~~^
+remote:                collected.requirements, max_rounds=limit_how_complex_resolution_can_be
+remote:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:            )
+remote:            ^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/resolvelib/resolvers.py", line 546, in resolve
+remote:            state = resolution.resolve(requirements, max_rounds=max_rounds)
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/resolvelib/resolvers.py", line 397, in resolve
+remote:            self._add_to_criteria(self.state.criteria, r, parent=None)
+remote:            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/resolvelib/resolvers.py", line 173, in _add_to_criteria
+remote:            if not criterion.candidates:
+remote:                   ^^^^^^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/resolvelib/structs.py", line 156, in __bool__
+remote:            return bool(self._sequence)
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py", line 174, in __bool__
+remote:            return any(self)
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py", line 162, in <genexpr>
+remote:            return (c for c in iterator if id(c) not in self._incompatible_ids)
+remote:                               ^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py", line 53, in _iter_built
+remote:            candidate = func()
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/factory.py", line 187, in _make_candidate_from_link
+remote:            base: Optional[BaseCandidate] = self._make_base_candidate_from_link
+remote:                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+remote:                link, template, name, version
+remote:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:            )
+remote:            ^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/factory.py", line 233, in _make_base_candidate_from_link
+remote:            self._link_candidate_cache[link] = LinkCandidate(
+remote:                                               ~~~~~~~~~~~~~^
+remote:                link,
+remote:                ^^^^^
+remote:            ...<3 lines>...
+remote:                version=version,
+remote:                ^^^^^^^^^^^^^^^^
+remote:            )
+remote:            ^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 304, in __init__
+remote:            super().__init__(
+remote:            ~~~~~~~~~~~~~~~~^
+remote:                link=link,
+remote:                ^^^^^^^^^^
+remote:            ...<4 lines>...
+remote:                version=version,
+remote:                ^^^^^^^^^^^^^^^^
+remote:            )
+remote:            ^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 159, in __init__
+remote:            self.dist = self._prepare()
+remote:                        ~~~~~~~~~~~~~^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 236, in _prepare
+remote:            dist = self._prepare_distribution()
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 315, in _prepare_distribution
+remote:            return preparer.prepare_linked_requirement(self._ireq, parallel_builds=True)
+remote:                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/operations/prepare.py", line 527, in prepare_linked_requirement
+remote:            return self._prepare_linked_requirement(req, parallel_builds)
+remote:                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/operations/prepare.py", line 642, in _prepare_linked_requirement
+remote:            dist = _get_prepared_distribution(
+remote:                req,
+remote:            ...<3 lines>...
+remote:                self.check_build_deps,
+remote:            )
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/operations/prepare.py", line 72, in _get_prepared_distribution
+remote:            abstract_dist.prepare_distribution_metadata(
+remote:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+remote:                finder, build_isolation, check_build_deps
+remote:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:            )
+remote:            ^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/distributions/sdist.py", line 56, in prepare_distribution_metadata
+remote:            self._install_build_reqs(finder)
+remote:            ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/distributions/sdist.py", line 126, in _install_build_reqs
+remote:            build_reqs = self._get_build_requires_wheel()
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/distributions/sdist.py", line 103, in _get_build_requires_wheel
+remote:            return backend.get_requires_for_build_wheel()
+remote:                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/utils/misc.py", line 701, in get_requires_for_build_wheel
+remote:            return super().get_requires_for_build_wheel(config_settings=cs)
+remote:                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_impl.py", line 166, in get_requires_for_build_wheel
+remote:            return self._call_hook('get_requires_for_build_wheel', {
+remote:                   ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:                'config_settings': config_settings
+remote:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:            })
+remote:            ^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_impl.py", line 321, in _call_hook
+remote:            raise BackendUnavailable(data.get('traceback', ''))
+remote:        pip._vendor.pyproject_hooks._impl.BackendUnavailable: Traceback (most recent call last):
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 77, in _build_backend
+remote:            obj = import_module(mod_path)
+remote:          File "/app/.heroku/python/lib/python3.13/importlib/__init__.py", line 88, in import_module
+remote:            return _bootstrap._gcd_import(name[level:], package, level)
+remote:                   ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:          File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+remote:          File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+remote:          File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+remote:          File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+remote:          File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+remote:          File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+remote:          File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+remote:          File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+remote:          File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+remote:          File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+remote:          File "/tmp/pip-build-env-oaitywh1/overlay/lib/python3.13/site-packages/setuptools/__init__.py", line 10, in <module>
+remote:            import distutils.core
+remote:        ModuleNotFoundError: No module named 'distutils'
+remote:        
+remote: 
+remote:  !     Error: Unable to install dependencies using pip.
+remote:  !     
+remote:  !     See the log output above for more information.
+remote: 
+remote:  !     Push rejected, failed to compile Python app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to wine-q.
+remote: 
+To https://git.heroku.com/wine-q.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/wine-q.git'
+(base) riyagaur@Riyas-MacBook flask app % git add requirements.txt
+git commit -m "Added setuptools to requirements"
+
+[main f73cd8c] Added setuptools to requirements
+ 1 file changed, 2 insertions(+)
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main
+
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (29/29), 1.52 MiB | 11.00 MiB/s, done.
+Total 29 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Updated 14 paths from b091a90
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Python app detected
+remote: -----> No Python version was specified. Using the buildpack default: Python 3.13
+remote:        To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing Python 3.13.1
+remote: -----> Installing pip 24.3.1
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Collecting Flask==2.2.2 (from -r requirements.txt (line 1))
+remote:          Downloading Flask-2.2.2-py3-none-any.whl.metadata (3.9 kB)
+remote:        Collecting gunicorn==23.0.0 (from -r requirements.txt (line 2))
+remote:          Downloading gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)
+remote:        Collecting numpy==1.22.4 (from -r requirements.txt (line 3))
+remote:          Downloading numpy-1.22.4.zip (11.5 MB)
+remote:          Installing build dependencies: started
+remote:          Installing build dependencies: finished with status 'done'
+remote:          Getting requirements to build wheel: started
+remote:          Getting requirements to build wheel: finished with status 'done'
+remote:        ERROR: Exception:
+remote:        Traceback (most recent call last):
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/cli/base_command.py", line 105, in _run_wrapper
+remote:            status = _inner_run()
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/cli/base_command.py", line 96, in _inner_run
+remote:            return self.run(options, args)
+remote:                   ~~~~~~~~^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/cli/req_command.py", line 67, in wrapper
+remote:            return func(self, options, args)
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/commands/install.py", line 379, in run
+remote:            requirement_set = resolver.resolve(
+remote:                reqs, check_supported_wheels=not options.target_dir
+remote:            )
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/resolver.py", line 95, in resolve
+remote:            result = self._result = resolver.resolve(
+remote:                                    ~~~~~~~~~~~~~~~~^
+remote:                collected.requirements, max_rounds=limit_how_complex_resolution_can_be
+remote:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:            )
+remote:            ^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/resolvelib/resolvers.py", line 546, in resolve
+remote:            state = resolution.resolve(requirements, max_rounds=max_rounds)
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/resolvelib/resolvers.py", line 397, in resolve
+remote:            self._add_to_criteria(self.state.criteria, r, parent=None)
+remote:            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/resolvelib/resolvers.py", line 173, in _add_to_criteria
+remote:            if not criterion.candidates:
+remote:                   ^^^^^^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/resolvelib/structs.py", line 156, in __bool__
+remote:            return bool(self._sequence)
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py", line 174, in __bool__
+remote:            return any(self)
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py", line 162, in <genexpr>
+remote:            return (c for c in iterator if id(c) not in self._incompatible_ids)
+remote:                               ^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py", line 53, in _iter_built
+remote:            candidate = func()
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/factory.py", line 187, in _make_candidate_from_link
+remote:            base: Optional[BaseCandidate] = self._make_base_candidate_from_link
+remote:                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+remote:                link, template, name, version
+remote:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:            )
+remote:            ^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/factory.py", line 233, in _make_base_candidate_from_link
+remote:            self._link_candidate_cache[link] = LinkCandidate(
+remote:                                               ~~~~~~~~~~~~~^
+remote:                link,
+remote:                ^^^^^
+remote:            ...<3 lines>...
+remote:                version=version,
+remote:                ^^^^^^^^^^^^^^^^
+remote:            )
+remote:            ^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 304, in __init__
+remote:            super().__init__(
+remote:            ~~~~~~~~~~~~~~~~^
+remote:                link=link,
+remote:                ^^^^^^^^^^
+remote:            ...<4 lines>...
+remote:                version=version,
+remote:                ^^^^^^^^^^^^^^^^
+remote:            )
+remote:            ^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 159, in __init__
+remote:            self.dist = self._prepare()
+remote:                        ~~~~~~~~~~~~~^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 236, in _prepare
+remote:            dist = self._prepare_distribution()
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 315, in _prepare_distribution
+remote:            return preparer.prepare_linked_requirement(self._ireq, parallel_builds=True)
+remote:                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/operations/prepare.py", line 527, in prepare_linked_requirement
+remote:            return self._prepare_linked_requirement(req, parallel_builds)
+remote:                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/operations/prepare.py", line 642, in _prepare_linked_requirement
+remote:            dist = _get_prepared_distribution(
+remote:                req,
+remote:            ...<3 lines>...
+remote:                self.check_build_deps,
+remote:            )
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/operations/prepare.py", line 72, in _get_prepared_distribution
+remote:            abstract_dist.prepare_distribution_metadata(
+remote:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+remote:                finder, build_isolation, check_build_deps
+remote:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:            )
+remote:            ^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/distributions/sdist.py", line 56, in prepare_distribution_metadata
+remote:            self._install_build_reqs(finder)
+remote:            ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/distributions/sdist.py", line 126, in _install_build_reqs
+remote:            build_reqs = self._get_build_requires_wheel()
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/distributions/sdist.py", line 103, in _get_build_requires_wheel
+remote:            return backend.get_requires_for_build_wheel()
+remote:                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_internal/utils/misc.py", line 701, in get_requires_for_build_wheel
+remote:            return super().get_requires_for_build_wheel(config_settings=cs)
+remote:                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_impl.py", line 166, in get_requires_for_build_wheel
+remote:            return self._call_hook('get_requires_for_build_wheel', {
+remote:                   ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:                'config_settings': config_settings
+remote:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:            })
+remote:            ^^
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_impl.py", line 321, in _call_hook
+remote:            raise BackendUnavailable(data.get('traceback', ''))
+remote:        pip._vendor.pyproject_hooks._impl.BackendUnavailable: Traceback (most recent call last):
+remote:          File "/app/.heroku/python/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 77, in _build_backend
+remote:            obj = import_module(mod_path)
+remote:          File "/app/.heroku/python/lib/python3.13/importlib/__init__.py", line 88, in import_module
+remote:            return _bootstrap._gcd_import(name[level:], package, level)
+remote:                   ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+remote:          File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+remote:          File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+remote:          File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+remote:          File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+remote:          File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+remote:          File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+remote:          File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+remote:          File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+remote:          File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+remote:          File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+remote:          File "/tmp/pip-build-env-l4wd12a8/overlay/lib/python3.13/site-packages/setuptools/__init__.py", line 10, in <module>
+remote:            import distutils.core
+remote:        ModuleNotFoundError: No module named 'distutils'
+remote:        
+remote: 
+remote:  !     Error: Unable to install dependencies using pip.
+remote:  !     
+remote:  !     See the log output above for more information.
+remote: 
+remote:  !     Push rejected, failed to compile Python app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to wine-q.
+remote: 
+To https://git.heroku.com/wine-q.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/wine-q.git'
+(base) riyagaur@Riyas-MacBook flask app % pip freeze | xargs pip uninstall -y
+
+ERROR: Invalid requirement: '@'
+(base) riyagaur@Riyas-MacBook flask app % pip install -r requirements.txt
+
+Requirement already satisfied: Flask==2.2.2 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (2.2.2)
+Requirement already satisfied: gunicorn==23.0.0 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (23.0.0)
+Requirement already satisfied: numpy==1.22.4 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 3)) (1.22.4)
+Requirement already satisfied: scikit-image==0.18.3 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 4)) (0.18.3)
+Requirement already satisfied: scikit-learn==1.6.0 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (1.6.0)
+Requirement already satisfied: setuptools>=58.0.4 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (58.0.4)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (4.8.1)
+Requirement already satisfied: Jinja2>=3.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (3.1.5)
+Requirement already satisfied: itsdangerous>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (2.2.0)
+Requirement already satisfied: Werkzeug>=2.2.2 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (3.1.3)
+Requirement already satisfied: click>=8.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (8.1.8)
+Requirement already satisfied: packaging in /opt/anaconda3/lib/python3.9/site-packages (from gunicorn==23.0.0->-r requirements.txt (line 2)) (21.0)
+Requirement already satisfied: scipy>=1.0.1 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (1.7.1)
+Requirement already satisfied: matplotlib!=3.0.0,>=2.0.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (3.4.3)
+Requirement already satisfied: networkx>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (2.6.3)
+Requirement already satisfied: pillow!=7.1.0,!=7.1.1,>=4.3.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (8.4.0)
+Requirement already satisfied: imageio>=2.3.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (2.9.0)
+Requirement already satisfied: tifffile>=2019.7.26 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (2021.7.2)
+Requirement already satisfied: PyWavelets>=1.1.1 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (1.1.1)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-learn==1.6.0->-r requirements.txt (line 5)) (3.5.0)
+Requirement already satisfied: joblib>=1.2.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-learn==1.6.0->-r requirements.txt (line 5)) (1.4.2)
+Requirement already satisfied: zipp>=0.5 in /opt/anaconda3/lib/python3.9/site-packages (from importlib-metadata>=3.6.0->Flask==2.2.2->-r requirements.txt (line 1)) (3.6.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from Jinja2>=3.0->Flask==2.2.2->-r requirements.txt (line 1)) (3.0.2)
+Requirement already satisfied: kiwisolver>=1.0.1 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (1.3.1)
+Requirement already satisfied: pyparsing>=2.2.1 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (3.0.4)
+Requirement already satisfied: python-dateutil>=2.7 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (2.8.2)
+Requirement already satisfied: cycler>=0.10 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (0.10.0)
+Requirement already satisfied: six in /opt/anaconda3/lib/python3.9/site-packages (from cycler>=0.10->matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (1.16.0)
+(base) riyagaur@Riyas-MacBook flask app % gunicorn -b 0.0.0.0:5000 app:app
+
+[2025-01-04 10:56:34 -0500] [15866] [INFO] Starting gunicorn 23.0.0
+[2025-01-04 10:56:34 -0500] [15866] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:56:34 -0500] [15866] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:56:35 -0500] [15866] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:56:35 -0500] [15866] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:56:36 -0500] [15866] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:56:36 -0500] [15866] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:56:37 -0500] [15866] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:56:37 -0500] [15866] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:56:38 -0500] [15866] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:56:38 -0500] [15866] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:56:39 -0500] [15866] [ERROR] Can't connect to ('0.0.0.0', 5000)
+(base) riyagaur@Riyas-MacBook flask app % lsof -i :5000
+
+COMMAND    PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+ControlCe 1039 riyagaur   10u  IPv4 0xa01cb8b9743aecad      0t0  TCP *:commplex-main (LISTEN)
+ControlCe 1039 riyagaur   11u  IPv6 0x5927feda4ec05fe5      0t0  TCP *:commplex-main (LISTEN)
+(base) riyagaur@Riyas-MacBook flask app % kill -9 <PID>
+
+zsh: parse error near `\n'
+(base) riyagaur@Riyas-MacBook flask app % n
+zsh: command not found: n
+(base) riyagaur@Riyas-MacBook flask app % gunicorn -b 0.0.0.0:5000 app:app
+]
+[2025-01-04 10:59:10 -0500] [15876] [INFO] Starting gunicorn 23.0.0
+[2025-01-04 10:59:10 -0500] [15876] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:59:10 -0500] [15876] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:59:11 -0500] [15876] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:59:11 -0500] [15876] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:59:12 -0500] [15876] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:59:12 -0500] [15876] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:59:13 -0500] [15876] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:59:13 -0500] [15876] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:59:14 -0500] [15876] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 10:59:14 -0500] [15876] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 10:59:15 -0500] [15876] [ERROR] Can't connect to ('0.0.0.0', 5000)
+zsh: command not found: ]
+(base) riyagaur@Riyas-MacBook flask app % kill -9 <PID>                   
+
+zsh: parse error near `\n'
+(base) riyagaur@Riyas-MacBook flask app % gunicorn -b 0.0.0.0:5000 app:app
+]
+[2025-01-04 11:07:21 -0500] [15961] [INFO] Starting gunicorn 23.0.0
+[2025-01-04 11:07:21 -0500] [15961] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 11:07:21 -0500] [15961] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 11:07:22 -0500] [15961] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 11:07:22 -0500] [15961] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 11:07:23 -0500] [15961] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 11:07:23 -0500] [15961] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 11:07:24 -0500] [15961] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 11:07:24 -0500] [15961] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 11:07:25 -0500] [15961] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-01-04 11:07:25 -0500] [15961] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 48] Address already in use
+[2025-01-04 11:07:26 -0500] [15961] [ERROR] Can't connect to ('0.0.0.0', 5000)
+zsh: command not found: ]
+(base) riyagaur@Riyas-MacBook flask app % lsof -i :5000
+
+COMMAND    PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+ControlCe 1039 riyagaur   10u  IPv4 0xa01cb8b9743aecad      0t0  TCP *:commplex-main (LISTEN)
+ControlCe 1039 riyagaur   11u  IPv6 0x5927feda4ec05fe5      0t0  TCP *:commplex-main (LISTEN)
+(base) riyagaur@Riyas-MacBook flask app % kill -9 1039
+
+(base) riyagaur@Riyas-MacBook flask app % lsof -i :5000
+
+COMMAND     PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+ControlCe 17028 riyagaur   11u  IPv4 0xb6cba8787b7374ec      0t0  TCP *:commplex-main (LISTEN)
+ControlCe 17028 riyagaur   12u  IPv6 0xa8d9624dc226d65f      0t0  TCP *:commplex-main (LISTEN)
+(base) riyagaur@Riyas-MacBook flask app % kill -9 <PID>
+
+zsh: parse error near `\n'
+(base) riyagaur@Riyas-MacBook flask app % ps -p 17028 -o comm,cmd
+
+ps: cmd: keyword not found
+COMM
+/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+(base) riyagaur@Riyas-MacBook flask app % gunicorn -b 0.0.0.0:8000 app:app
+
+[2025-01-04 11:56:33 -0500] [17137] [INFO] Starting gunicorn 23.0.0
+[2025-01-04 11:56:33 -0500] [17137] [INFO] Listening at: http://0.0.0.0:8000 (17137)
+[2025-01-04 11:56:33 -0500] [17137] [INFO] Using worker: sync
+[2025-01-04 11:56:33 -0500] [17138] [INFO] Booting worker with pid: 17138
+git add requirements.txt runtime.txt
+git commit -m "Update requirements and specify Python version"
+
+^C[2025-01-04 12:05:04 -0500] [17137] [INFO] Handling signal: int
+[2025-01-04 12:05:04 -0500] [17138] [INFO] Worker exiting (pid: 17138)
+[2025-01-04 12:05:04 -0500] [17137] [INFO] Shutting down: Master
+(base) riyagaur@Riyas-MacBook flask app % git add requirements.txt runtime.txt
+git commit -m "Update requirements and specify Python version"
+
+[main 1111af3] Update requirements and specify Python version
+ 1 file changed, 1 insertion(+)
+ create mode 100644 runtime.txt
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main
+
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (32/32), 1.52 MiB | 11.00 MiB/s, done.
+Total 32 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Updated 15 paths from a8163e8
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Python app detected
+remote: -----> Using Python 3.9.13 specified in runtime.txt
+remote: -----> Installing Python 3.9.13
+remote: 
+remote:  !     Warning: A Python security update is available!
+remote:  !     
+remote:  !     Upgrade as soon as possible to: Python 3.9.21
+remote:  !     See: https://devcenter.heroku.com/articles/python-runtimes
+remote: 
+remote: -----> Installing pip 24.3.1, setuptools 70.3.0 and wheel 0.45.1
+remote: -----> Installing SQLite3
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Collecting Flask==2.2.2 (from -r requirements.txt (line 1))
+remote:          Downloading Flask-2.2.2-py3-none-any.whl.metadata (3.9 kB)
+remote:        Collecting gunicorn==23.0.0 (from -r requirements.txt (line 2))
+remote:          Downloading gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)
+remote:        Collecting numpy==1.22.4 (from -r requirements.txt (line 3))
+remote:          Downloading numpy-1.22.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.0 kB)
+remote:        Collecting scikit-image==0.18.3 (from -r requirements.txt (line 4))
+remote:          Downloading scikit_image-0.18.3-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (7.9 kB)
+remote:        Collecting scikit-learn==1.6.0 (from -r requirements.txt (line 5))
+remote:          Downloading scikit_learn-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
+remote:        Collecting Werkzeug>=2.2.2 (from Flask==2.2.2->-r requirements.txt (line 1))
+remote:          Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+remote:        Collecting Jinja2>=3.0 (from Flask==2.2.2->-r requirements.txt (line 1)
+remote:          Downloading jinja2-3.1.5-py3-none-any.whl.metadata (2.6 kB)
+remote:        Collecting itsdangerous>=2.0 (from Flask==2.2.2->-r requirements.txt (line 1))
+remote:          Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+remote:        Collecting click>=8.0 (from Flask==2.2.2->-r requirements.txt (line 1))
+remote:          Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+remote:        Collecting importlib-metadata>=3.6.0 (from Flask==2.2.2->-r requirements.txt (line 1))
+remote:          Downloading importlib_metadata-8.5.0-py3-none-any.whl.metadata (4.8 kB)
+remote:        Collecting packaging (from gunicorn==23.0.0->-r requirements.txt (line 2))
+remote:          Downloading packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+remote:        Collecting scipy>=1.0.1 (from scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading scipy-1.13.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+remote:        Collecting matplotlib!=3.0.0,>=2.0.0 (from scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading matplotlib-3.9.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+remote:        Collecting networkx>=2.0 (from scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading networkx-3.2.1-py3-none-any.whl.metadata (5.2 kB)
+remote:        Collecting pillow!=7.1.0,!=7.1.1,>=4.3.0 (from scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading pillow-11.1.0-cp39-cp39-manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+remote:        Collecting imageio>=2.3.0 (from scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading imageio-2.36.1-py3-none-any.whl.metadata (5.2 kB)
+remote:        Collecting tifffile>=2019.7.26 (from scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading tifffile-2024.8.30-py3-none-any.whl.metadata (31 kB)
+remote:        Collecting PyWavelets>=1.1.1 (from scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading pywavelets-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.0 kB)
+remote:        Collecting joblib>=1.2.0 (from scikit-learn==1.6.0->-r requirements.txt (line 5))
+remote:          Downloading joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+remote:        Collecting threadpoolctl>=3.1.0 (from scikit-learn==1.6.0->-r requirements.txt (line 5))
+remote:          Downloading threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+remote:        Collecting zipp>=3.20 (from importlib-metadata>=3.6.0->Flask==2.2.2->-r requirements.txt (line 1))
+remote:          Downloading zipp-3.21.0-py3-none-any.whl.metadata (3.7 kB)
+remote:        Collecting MarkupSafe>=2.0 (from Jinja2>=3.0->Flask==2.2.2->-r requirements.txt (line 1))
+remote:          Downloading MarkupSafe-3.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+remote:        Collecting contourpy>=1.0.1 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading contourpy-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.4 kB)
+remote:        Collecting cycler>=0.10 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+remote:        Collecting fonttools>=4.22.0 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading fonttools-4.55.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (165 kB)
+remote:        Collecting kiwisolver>=1.3.1 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading kiwisolver-1.4.7-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (6.3 kB)
+remote:        INFO: pip is looking at multiple versions of matplotlib to determine which version is compatible with other requirements. This could take a while.
+remote:        Collecting matplotlib!=3.0.0,>=2.0.0 (from scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading matplotlib-3.9.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+remote:          Downloading matplotlib-3.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+remote:          Downloading matplotlib-3.9.1.post1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+remote:          Downloading matplotlib-3.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+remote:          Downloading matplotlib-3.8.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.8 kB)
+remote:        Collecting pyparsing>=2.3.1 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading pyparsing-3.2.1-py3-none-any.whl.metadata (5.0 kB)
+remote:        Collecting python-dateutil>=2.7 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+remote:        Collecting importlib-resources>=3.2.0 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading importlib_resources-6.5.2-py3-none-any.whl.metadata (3.9 kB)
+remote:        INFO: pip is looking at multiple versions of contourpy to determine which version is compatible with other requirements. This could take a while.
+remote:        Collecting contourpy>=1.0.1 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading contourpy-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.8 kB)
+remote:        Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4))
+remote:          Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+remote:        Downloading Flask-2.2.2-py3-none-any.whl (101 kB)
+remote:        Downloading gunicorn-23.0.0-py3-none-any.whl (85 kB)
+remote:        Downloading numpy-1.22.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+remote:        Downloading scikit_image-0.18.3-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (34.6 MB)
+remote:        Downloading scikit_learn-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.5 MB)
+remote:        Downloading click-8.1.8-py3-none-any.whl (98 kB)
+remote:        Downloading imageio-2.36.1-py3-none-any.whl (315 kB)
+remote:        Downloading importlib_metadata-8.5.0-py3-none-any.whl (26 kB)
+remote:        Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+remote:        Downloading jinja2-3.1.5-py3-none-any.whl (134 kB)
+remote:        Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
+remote:        Downloading matplotlib-3.8.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+remote:        Downloading networkx-3.2.1-py3-none-any.whl (1.6 MB)
+remote:        Downloading packaging-24.2-py3-none-any.whl (65 kB)
+remote:        Downloading pillow-11.1.0-cp39-cp39-manylinux_2_28_x86_64.whl (4.5 MB)
+remote:        Downloading pywavelets-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.5 MB)
+remote:        Downloading scipy-1.13.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.6 MB)
+remote:        Downloading threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+remote:        Downloading tifffile-2024.8.30-py3-none-any.whl (227 kB)
+remote:        Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+remote:        Downloading contourpy-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (304 kB)
+remote:        Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+remote:        Downloading fonttools-4.55.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
+remote:        Downloading importlib_resources-6.5.2-py3-none-any.whl (37 kB)
+remote:        Downloading kiwisolver-1.4.7-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+remote:        Downloading MarkupSafe-3.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20 kB)
+remote:        Downloading pyparsing-3.2.1-py3-none-any.whl (107 kB)
+remote:        Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+remote:        Downloading zipp-3.21.0-py3-none-any.whl (9.6 kB)
+remote:        Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+remote:        Installing collected packages: zipp, threadpoolctl, six, pyparsing, pillow, packaging, numpy, networkx, MarkupSafe, kiwisolver, joblib, itsdangerous, fonttools, cycler, click, Werkzeug, tifffile, scipy, PyWavelets, python-dateutil, Jinja2, importlib-resources, importlib-metadata, imageio, gunicorn, contourpy, scikit-learn, matplotlib, Flask, scikit-image
+remote:        Successfully installed Flask-2.2.2 Jinja2-3.1.5 MarkupSafe-3.0.2 PyWavelets-1.6.0 Werkzeug-3.1.3 click-8.1.8 contourpy-1.2.1 cycler-0.12.1 fonttools-4.55.3 gunicorn-23.0.0 imageio-2.36.1 importlib-metadata-8.5.0 importlib-resources-6.5.2 itsdangerous-2.2.0 joblib-1.4.2 kiwisolver-1.4.7 matplotlib-3.8.4 networkx-3.2.1 numpy-1.22.4 packaging-24.2 pillow-11.1.0 pyparsing-3.2.1 python-dateutil-2.9.0.post0 scikit-image-0.18.3 scikit-learn-1.6.0 scipy-1.13.1 six-1.17.0 threadpoolctl-3.5.0 tifffile-2024.8.30 zipp-3.21.0
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote: 
+remote: -----> Compressing...
+remote:        Done: 167.6M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://wine-q-6183667d8f14.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy..... done.
+To https://git.heroku.com/wine-q.git
+ * [new branch]      main -> main
+(base) riyagaur@Riyas-MacBook flask app % heroku open
+
+(base) riyagaur@Riyas-MacBook flask app % heroku open
+
+(base) riyagaur@Riyas-MacBook flask app % heroku logs --tail
+
+2025-01-04T15:09:05.343995+00:00 app[api]: Release v1 created by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:09:05.343995+00:00 app[api]: Initial release by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:09:05.559719+00:00 app[api]: Release v2 created by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:09:05.559719+00:00 app[api]: Enable Logplex by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:10:05.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:10:14.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/23baf42a-8d95-45e4-9d09-a7970c262866
+2025-01-04T15:14:54.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:15:03.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/eca6299a-1468-4df4-88d3-3eaa2f26fc09
+2025-01-04T15:20:00.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:20:08.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/6363481f-fcf2-4c55-beb2-331db1a668d9
+2025-01-04T15:31:50.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:31:58.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/2d7fcc8a-25c6-4046-8c52-456b6e629bcf
+2025-01-04T15:45:44.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:45:54.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/f6bba11a-750b-4c2f-bde8-53a96e8fc36e
+2025-01-04T15:48:19.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T15:48:29.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/0f8dd1b8-5026-4fa6-82cb-62517b41cd9d
+2025-01-04T17:05:19.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:06:06.840964+00:00 app[api]: Release v3 created by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:06:06.840964+00:00 app[api]: Deploy 1111af34 by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:06:06.859481+00:00 app[api]: Scaled to web@1:Basic by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:06:13.524586+00:00 heroku[web.1]: Starting process with command `python app.py`
+2025-01-04T17:06:14.004636+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2025-01-04T17:06:14.004720+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2025-01-04T17:06:14.161696+00:00 app[web.1]: Traceback (most recent call last):
+2025-01-04T17:06:14.161697+00:00 app[web.1]: File "/app/app.py", line 1, in <module>
+2025-01-04T17:06:14.161743+00:00 app[web.1]: from flask import Flask, request, jsonify
+2025-01-04T17:06:14.161744+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/__init__.py", line 5, in <module>
+2025-01-04T17:06:14.161778+00:00 app[web.1]: from .app import Flask as Flask
+2025-01-04T17:06:14.161779+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 30, in <module>
+2025-01-04T17:06:14.161812+00:00 app[web.1]: from werkzeug.urls import url_quote
+2025-01-04T17:06:14.161822+00:00 app[web.1]: ImportError: cannot import name 'url_quote' from 'werkzeug.urls' (/app/.heroku/python/lib/python3.9/site-packages/werkzeug/urls.py)
+2025-01-04T17:06:14.219610+00:00 heroku[web.1]: Process exited with status 1
+2025-01-04T17:06:14.243141+00:00 heroku[web.1]: State changed from starting to crashed
+2025-01-04T17:06:14.245972+00:00 heroku[web.1]: State changed from crashed to starting
+2025-01-04T17:06:21.475168+00:00 heroku[web.1]: Starting process with command `python app.py`
+2025-01-04T17:06:22.167454+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2025-01-04T17:06:22.167470+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2025-01-04T17:06:22.363890+00:00 app[web.1]: Traceback (most recent call last):
+2025-01-04T17:06:22.363892+00:00 app[web.1]: File "/app/app.py", line 1, in <module>
+2025-01-04T17:06:22.363892+00:00 app[web.1]: from flask import Flask, request, jsonify
+2025-01-04T17:06:22.363892+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/__init__.py", line 5, in <module>
+2025-01-04T17:06:22.363893+00:00 app[web.1]: from .app import Flask as Flask
+2025-01-04T17:06:22.363893+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 30, in <module>
+2025-01-04T17:06:22.363893+00:00 app[web.1]: from werkzeug.urls import url_quote
+2025-01-04T17:06:22.363894+00:00 app[web.1]: ImportError: cannot import name 'url_quote' from 'werkzeug.urls' (/app/.heroku/python/lib/python3.9/site-packages/werkzeug/urls.py)
+2025-01-04T17:06:22.455652+00:00 heroku[web.1]: Process exited with status 1
+2025-01-04T17:06:22.487584+00:00 heroku[web.1]: State changed from starting to crashed
+2025-01-04T17:06:39.000000+00:00 app[api]: Build succeeded
+2025-01-04T17:08:35.339953+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=f0034949-c88a-48fb-9509-95ebbae0bb56 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:08:35.849021+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wine-q-6183667d8f14.herokuapp.com request_id=e8606853-2fcd-422a-9fc1-cfe4aef5b324 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:10:09.607928+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=04d1651b-c51b-4f7e-8229-417542f51127 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+ ^C%                                                                                   (base) riyagaur@Riyas-MacBook flask app % pip install Flask==2.2.2 Werkzeug==2.2.3
+
+Requirement already satisfied: Flask==2.2.2 in /opt/anaconda3/lib/python3.9/site-packages (2.2.2)
+Requirement already satisfied: Werkzeug==2.2.3 in /opt/anaconda3/lib/python3.9/site-packages (2.2.3)
+Requirement already satisfied: click>=8.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2) (8.1.8)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2) (4.8.1)
+Requirement already satisfied: Jinja2>=3.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2) (3.1.5)
+Requirement already satisfied: itsdangerous>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2) (2.2.0)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /opt/anaconda3/lib/python3.9/site-packages (from Werkzeug==2.2.3) (3.0.2)
+Requirement already satisfied: zipp>=0.5 in /opt/anaconda3/lib/python3.9/site-packages (from importlib-metadata>=3.6.0->Flask==2.2.2) (3.6.0)
+(base) riyagaur@Riyas-MacBook flask app % pip freeze > requirements.txt
+
+(base) riyagaur@Riyas-MacBook flask app % git add requirements.txt
+git commit -m "Fix Flask and Werkzeug compatibility"
+
+[main b145a6d] Fix Flask and Werkzeug compatibility
+ 1 file changed, 357 insertions(+), 3 deletions(-)
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 8.56 KiB | 8.56 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Updated 15 paths from 338fd98
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Using buildpack: heroku/python
+remote: -----> Python app detected
+remote: -----> Using Python 3.9.13 specified in runtime.txt
+remote: -----> Discarding cache since:
+remote:        - The contents of requirements.txt changed
+remote: -----> Installing Python 3.9.13
+remote: 
+remote:  !     Warning: A Python security update is available!
+remote:  !     
+remote:  !     Upgrade as soon as possible to: Python 3.9.21
+remote:  !     See: https://devcenter.heroku.com/articles/python-runtimes
+remote: 
+remote: -----> Installing pip 24.3.1, setuptools 70.3.0 and wheel 0.45.1
+remote: -----> Installing SQLite3
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Processing /home/ktietz/src/ci/alabaster_1611921544520/work (from -r requirements.txt (line 2))
+remote:        ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/home/ktietz/src/ci/alabaster_1611921544520/work'
+remote:        
+remote: 
+remote:  !     Error: Unable to install dependencies using pip.
+remote:  !     
+remote:  !     See the log output above for more information.
+remote: 
+remote:  !     Push rejected, failed to compile Python app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to wine-q.
+remote: 
+To https://git.heroku.com/wine-q.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/wine-q.git'
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 8.56 KiB | 8.56 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Updated 15 paths from 338fd98
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Using buildpack: heroku/python
+remote: -----> Python app detected
+remote: -----> Using Python 3.9.13 specified in runtime.txt
+remote: -----> Discarding cache since:
+remote:        - The contents of requirements.txt changed
+remote: -----> Installing Python 3.9.13
+remote: 
+remote:  !     Warning: A Python security update is available!
+remote:  !     
+remote:  !     Upgrade as soon as possible to: Python 3.9.21
+remote:  !     See: https://devcenter.heroku.com/articles/python-runtimes
+remote: 
+remote: -----> Installing pip 24.3.1, setuptools 70.3.0 and wheel 0.45.1
+remote: -----> Installing SQLite3
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Processing /home/ktietz/src/ci/alabaster_1611921544520/work (from -r requirements.txt (line 2))
+remote:        ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/home/ktietz/src/ci/alabaster_1611921544520/work'
+remote:        
+remote: 
+remote:  !     Error: Unable to install dependencies using pip.
+remote:  !     
+remote:  !     See the log output above for more information.
+remote: 
+remote:  !     Push rejected, failed to compile Python app.
+remote: 
+remote:  !     Push failed
+remote:  !
+remote:  ! ## Warning - The same version of this code has already been built: b145a6d55a70f8a1d6e71371bac71d7410bde568
+remote:  !
+remote:  ! We have detected that you have triggered a build from source code with version b145a6d55a70f8a1d6e71371bac71d7410bde568
+remote:  ! at least twice. One common cause of this behavior is attempting to deploy code from a different branch.
+remote:  !
+remote:  ! If you are developing on a branch and deploying via git you must run:
+remote:  !
+remote:  !     git push heroku <branchname>:main
+remote:  !
+remote:  ! This article goes into details on the behavior:
+remote:  !   https://devcenter.heroku.com/articles/duplicate-build-version
+remote: 
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to wine-q.
+remote: 
+To https://git.heroku.com/wine-q.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/wine-q.git'
+(base) riyagaur@Riyas-MacBook flask app % pip install -r requirements.txt         
+
+Requirement already satisfied: Flask==2.2.2 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (2.2.2)
+Requirement already satisfied: gunicorn==23.0.0 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (23.0.0)
+Requirement already satisfied: numpy==1.22.4 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 3)) (1.22.4)
+Requirement already satisfied: scikit-image==0.18.3 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 4)) (0.18.3)
+Requirement already satisfied: scikit-learn==1.6.0 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (1.6.0)
+Requirement already satisfied: Werkzeug==2.2.3 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (2.2.3)
+Requirement already satisfied: click>=8.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (8.1.8)
+Requirement already satisfied: Jinja2>=3.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (3.1.5)
+Requirement already satisfied: itsdangerous>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (2.2.0)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (4.8.1)
+Requirement already satisfied: packaging in /opt/anaconda3/lib/python3.9/site-packages (from gunicorn==23.0.0->-r requirements.txt (line 2)) (21.0)
+Requirement already satisfied: scipy>=1.0.1 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (1.7.1)
+Requirement already satisfied: matplotlib!=3.0.0,>=2.0.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (3.4.3)
+Requirement already satisfied: networkx>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (2.6.3)
+Requirement already satisfied: pillow!=7.1.0,!=7.1.1,>=4.3.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (8.4.0)
+Requirement already satisfied: imageio>=2.3.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (2.9.0)
+Requirement already satisfied: tifffile>=2019.7.26 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (2021.7.2)
+Requirement already satisfied: PyWavelets>=1.1.1 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 4)) (1.1.1)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-learn==1.6.0->-r requirements.txt (line 5)) (3.5.0)
+Requirement already satisfied: joblib>=1.2.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-learn==1.6.0->-r requirements.txt (line 5)) (1.4.2)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /opt/anaconda3/lib/python3.9/site-packages (from Werkzeug==2.2.3->-r requirements.txt (line 6)) (3.0.2)
+Requirement already satisfied: zipp>=0.5 in /opt/anaconda3/lib/python3.9/site-packages (from importlib-metadata>=3.6.0->Flask==2.2.2->-r requirements.txt (line 1)) (3.6.0)
+Requirement already satisfied: cycler>=0.10 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (0.10.0)
+Requirement already satisfied: python-dateutil>=2.7 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (2.8.2)
+Requirement already satisfied: kiwisolver>=1.0.1 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (1.3.1)
+Requirement already satisfied: pyparsing>=2.2.1 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (3.0.4)
+Requirement already satisfied: six in /opt/anaconda3/lib/python3.9/site-packages (from cycler>=0.10->matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 4)) (1.16.0)
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main           
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 8.56 KiB | 8.56 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Updated 15 paths from 338fd98
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Using buildpack: heroku/python
+remote: -----> Python app detected
+remote: -----> Using Python 3.9.13 specified in runtime.txt
+remote: -----> Discarding cache since:
+remote:        - The contents of requirements.txt changed
+remote: -----> Installing Python 3.9.13
+remote: 
+remote:  !     Warning: A Python security update is available!
+remote:  !     
+remote:  !     Upgrade as soon as possible to: Python 3.9.21
+remote:  !     See: https://devcenter.heroku.com/articles/python-runtimes
+remote: 
+remote: -----> Installing pip 24.3.1, setuptools 70.3.0 and wheel 0.45.1
+remote: -----> Installing SQLite3
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Processing /home/ktietz/src/ci/alabaster_1611921544520/work (from -r requirements.txt (line 2))
+remote:        ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/home/ktietz/src/ci/alabaster_1611921544520/work'
+remote:        
+remote: 
+remote:  !     Error: Unable to install dependencies using pip.
+remote:  !     
+remote:  !     See the log output above for more information.
+remote: 
+remote:  !     Push rejected, failed to compile Python app.
+remote: 
+remote:  !     Push failed
+remote:  !
+remote:  ! ## Warning - The same version of this code has already been built: b145a6d55a70f8a1d6e71371bac71d7410bde568
+remote:  !
+remote:  ! We have detected that you have triggered a build from source code with version b145a6d55a70f8a1d6e71371bac71d7410bde568
+remote:  ! at least twice. One common cause of this behavior is attempting to deploy code from a different branch.
+remote:  !
+remote:  ! If you are developing on a branch and deploying via git you must run:
+remote:  !
+remote:  !     git push heroku <branchname>:main
+remote:  !
+remote:  ! This article goes into details on the behavior:
+remote:  !   https://devcenter.heroku.com/articles/duplicate-build-version
+remote: 
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to wine-q.
+remote: 
+To https://git.heroku.com/wine-q.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/wine-q.git'
+(base) riyagaur@Riyas-MacBook flask app % heroku open
+(base) riyagaur@Riyas-MacBook flask app % pip install -r requirements.txt
+
+Requirement already satisfied: Flask==2.2.2 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (2.2.2)
+Requirement already satisfied: Werkzeug==2.2.3 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (2.2.3)
+Requirement already satisfied: gunicorn==23.0.0 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 3)) (23.0.0)
+Requirement already satisfied: numpy==1.22.4 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 4)) (1.22.4)
+Requirement already satisfied: scikit-image==0.18.3 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (0.18.3)
+Requirement already satisfied: scikit-learn==1.6.0 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (1.6.0)
+Requirement already satisfied: setuptools>=58.0.4 in /opt/anaconda3/lib/python3.9/site-packages (from -r requirements.txt (line 7)) (58.0.4)
+Requirement already satisfied: Jinja2>=3.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (3.1.5)
+Requirement already satisfied: click>=8.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (8.1.8)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (4.8.1)
+Requirement already satisfied: itsdangerous>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from Flask==2.2.2->-r requirements.txt (line 1)) (2.2.0)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /opt/anaconda3/lib/python3.9/site-packages (from Werkzeug==2.2.3->-r requirements.txt (line 2)) (3.0.2)
+Requirement already satisfied: packaging in /opt/anaconda3/lib/python3.9/site-packages (from gunicorn==23.0.0->-r requirements.txt (line 3)) (21.0)
+Requirement already satisfied: scipy>=1.0.1 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 5)) (1.7.1)
+Requirement already satisfied: matplotlib!=3.0.0,>=2.0.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 5)) (3.4.3)
+Requirement already satisfied: networkx>=2.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 5)) (2.6.3)
+Requirement already satisfied: pillow!=7.1.0,!=7.1.1,>=4.3.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 5)) (8.4.0)
+Requirement already satisfied: imageio>=2.3.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 5)) (2.9.0)
+Requirement already satisfied: tifffile>=2019.7.26 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 5)) (2021.7.2)
+Requirement already satisfied: PyWavelets>=1.1.1 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-image==0.18.3->-r requirements.txt (line 5)) (1.1.1)
+Requirement already satisfied: joblib>=1.2.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-learn==1.6.0->-r requirements.txt (line 6)) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /opt/anaconda3/lib/python3.9/site-packages (from scikit-learn==1.6.0->-r requirements.txt (line 6)) (3.5.0)
+Requirement already satisfied: zipp>=0.5 in /opt/anaconda3/lib/python3.9/site-packages (from importlib-metadata>=3.6.0->Flask==2.2.2->-r requirements.txt (line 1)) (3.6.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5)) (1.3.1)
+Requirement already satisfied: pyparsing>=2.2.1 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5)) (3.0.4)
+Requirement already satisfied: python-dateutil>=2.7 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5)) (2.8.2)
+Requirement already satisfied: cycler>=0.10 in /opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5)) (0.10.0)
+Requirement already satisfied: six in /opt/anaconda3/lib/python3.9/site-packages (from cycler>=0.10->matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5)) (1.16.0)
+(base) riyagaur@Riyas-MacBook flask app % git add requirements.txt
+git commit -m "Cleaned up requirements.txt"
+
+[main b8c61e7] Cleaned up requirements.txt
+ 1 file changed, 2 insertions(+), 357 deletions(-)
+(base) riyagaur@Riyas-MacBook flask app % git push heroku main
+
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 8.89 KiB | 8.89 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Updated 15 paths from 110077b
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Using buildpack: heroku/python
+remote: -----> Python app detected
+remote: -----> Using Python 3.9.13 specified in runtime.txt
+remote: -----> Discarding cache since:
+remote:        - The contents of requirements.txt changed
+remote: -----> Installing Python 3.9.13
+remote: 
+remote:  !     Warning: A Python security update is available!
+remote:  !     
+remote:  !     Upgrade as soon as possible to: Python 3.9.21
+remote:  !     See: https://devcenter.heroku.com/articles/python-runtimes
+remote: 
+remote: -----> Installing pip 24.3.1, setuptools 70.3.0 and wheel 0.45.1
+remote: -----> Installing SQLite3
+remote: -----> Installing dependencies using 'pip install -r requirements.txt'
+remote:        Collecting Flask==2.2.2 (from -r requirements.txt (line 1))
+remote:          Downloading Flask-2.2.2-py3-none-any.whl.metadata (3.9 kB)
+remote:        Collecting Werkzeug==2.2.3 (from -r requirements.txt (line 2))
+remote:          Downloading Werkzeug-2.2.3-py3-none-any.whl.metadata (4.4 kB)
+remote:        Collecting gunicorn==23.0.0 (from -r requirements.txt (line 3))
+remote:          Downloading gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)
+remote:        Collecting numpy==1.22.4 (from -r requirements.txt (line 4))
+remote:          Downloading numpy-1.22.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.0 kB)
+remote:        Collecting scikit-image==0.18.3 (from -r requirements.txt (line 5))
+remote:          Downloading scikit_image-0.18.3-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (7.9 kB)
+remote:        Collecting scikit-learn==1.6.0 (from -r requirements.txt (line 6))
+remote:          Downloading scikit_learn-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
+remote:        Collecting Jinja2>=3.0 (from Flask==2.2.2->-r requirements.txt (line 1)
+remote:          Downloading jinja2-3.1.5-py3-none-any.whl.metadata (2.6 kB)
+remote:        Collecting itsdangerous>=2.0 (from Flask==2.2.2->-r requirements.txt (line 1))
+remote:          Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+remote:        Collecting click>=8.0 (from Flask==2.2.2->-r requirements.txt (line 1))
+remote:          Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+remote:        Collecting importlib-metadata>=3.6.0 (from Flask==2.2.2->-r requirements.txt (line 1))
+remote:          Downloading importlib_metadata-8.5.0-py3-none-any.whl.metadata (4.8 kB)
+remote:        Collecting MarkupSafe>=2.1.1 (from Werkzeug==2.2.3->-r requirements.txt (line 2))
+remote:          Downloading MarkupSafe-3.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+remote:        Collecting packaging (from gunicorn==23.0.0->-r requirements.txt (line 3))
+remote:          Downloading packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+remote:        Collecting scipy>=1.0.1 (from scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading scipy-1.13.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+remote:        Collecting matplotlib!=3.0.0,>=2.0.0 (from scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading matplotlib-3.9.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+remote:        Collecting networkx>=2.0 (from scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading networkx-3.2.1-py3-none-any.whl.metadata (5.2 kB)
+remote:        Collecting pillow!=7.1.0,!=7.1.1,>=4.3.0 (from scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading pillow-11.1.0-cp39-cp39-manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+remote:        Collecting imageio>=2.3.0 (from scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading imageio-2.36.1-py3-none-any.whl.metadata (5.2 kB)
+remote:        Collecting tifffile>=2019.7.26 (from scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading tifffile-2024.8.30-py3-none-any.whl.metadata (31 kB)
+remote:        Collecting PyWavelets>=1.1.1 (from scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading pywavelets-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.0 kB)
+remote:        Collecting joblib>=1.2.0 (from scikit-learn==1.6.0->-r requirements.txt (line 6))
+remote:          Downloading joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+remote:        Collecting threadpoolctl>=3.1.0 (from scikit-learn==1.6.0->-r requirements.txt (line 6))
+remote:          Downloading threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+remote:        Collecting zipp>=3.20 (from importlib-metadata>=3.6.0->Flask==2.2.2->-r requirements.txt (line 1))
+remote:          Downloading zipp-3.21.0-py3-none-any.whl.metadata (3.7 kB)
+remote:        Collecting contourpy>=1.0.1 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading contourpy-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.4 kB)
+remote:        Collecting cycler>=0.10 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+remote:        Collecting fonttools>=4.22.0 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading fonttools-4.55.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (165 kB)
+remote:        Collecting kiwisolver>=1.3.1 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading kiwisolver-1.4.7-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (6.3 kB)
+remote:        INFO: pip is looking at multiple versions of matplotlib to determine which version is compatible with other requirements. This could take a while.
+remote:        Collecting matplotlib!=3.0.0,>=2.0.0 (from scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading matplotlib-3.9.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+remote:          Downloading matplotlib-3.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+remote:          Downloading matplotlib-3.9.1.post1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+remote:          Downloading matplotlib-3.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+remote:          Downloading matplotlib-3.8.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.8 kB)
+remote:        Collecting pyparsing>=2.3.1 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading pyparsing-3.2.1-py3-none-any.whl.metadata (5.0 kB)
+remote:        Collecting python-dateutil>=2.7 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+remote:        Collecting importlib-resources>=3.2.0 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading importlib_resources-6.5.2-py3-none-any.whl.metadata (3.9 kB)
+remote:        INFO: pip is looking at multiple versions of contourpy to determine which version is compatible with other requirements. This could take a while.
+remote:        Collecting contourpy>=1.0.1 (from matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading contourpy-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.8 kB)
+remote:        Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib!=3.0.0,>=2.0.0->scikit-image==0.18.3->-r requirements.txt (line 5))
+remote:          Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+remote:        Downloading Flask-2.2.2-py3-none-any.whl (101 kB)
+remote:        Downloading Werkzeug-2.2.3-py3-none-any.whl (233 kB)
+remote:        Downloading gunicorn-23.0.0-py3-none-any.whl (85 kB)
+remote:        Downloading numpy-1.22.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+remote:        Downloading scikit_image-0.18.3-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (34.6 MB)
+remote:        Downloading scikit_learn-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.5 MB)
+remote:        Downloading click-8.1.8-py3-none-any.whl (98 kB)
+remote:        Downloading imageio-2.36.1-py3-none-any.whl (315 kB)
+remote:        Downloading importlib_metadata-8.5.0-py3-none-any.whl (26 kB)
+remote:        Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+remote:        Downloading jinja2-3.1.5-py3-none-any.whl (134 kB)
+remote:        Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
+remote:        Downloading MarkupSafe-3.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20 kB)
+remote:        Downloading matplotlib-3.8.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+remote:        Downloading networkx-3.2.1-py3-none-any.whl (1.6 MB)
+remote:        Downloading packaging-24.2-py3-none-any.whl (65 kB)
+remote:        Downloading pillow-11.1.0-cp39-cp39-manylinux_2_28_x86_64.whl (4.5 MB)
+remote:        Downloading pywavelets-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.5 MB)
+remote:        Downloading scipy-1.13.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.6 MB)
+remote:        Downloading threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+remote:        Downloading tifffile-2024.8.30-py3-none-any.whl (227 kB)
+remote:        Downloading contourpy-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (304 kB)
+remote:        Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+remote:        Downloading fonttools-4.55.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
+remote:        Downloading importlib_resources-6.5.2-py3-none-any.whl (37 kB)
+remote:        Downloading kiwisolver-1.4.7-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+remote:        Downloading pyparsing-3.2.1-py3-none-any.whl (107 kB)
+remote:        Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+remote:        Downloading zipp-3.21.0-py3-none-any.whl (9.6 kB)
+remote:        Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+remote:        Installing collected packages: zipp, threadpoolctl, six, pyparsing, pillow, packaging, numpy, networkx, MarkupSafe, kiwisolver, joblib, itsdangerous, fonttools, cycler, click, Werkzeug, tifffile, scipy, PyWavelets, python-dateutil, Jinja2, importlib-resources, importlib-metadata, imageio, gunicorn, contourpy, scikit-learn, matplotlib, Flask, scikit-image
+remote:        Successfully installed Flask-2.2.2 Jinja2-3.1.5 MarkupSafe-3.0.2 PyWavelets-1.6.0 Werkzeug-2.2.3 click-8.1.8 contourpy-1.2.1 cycler-0.12.1 fonttools-4.55.3 gunicorn-23.0.0 imageio-2.36.1 importlib-metadata-8.5.0 importlib-resources-6.5.2 itsdangerous-2.2.0 joblib-1.4.2 kiwisolver-1.4.7 matplotlib-3.8.4 networkx-3.2.1 numpy-1.22.4 packaging-24.2 pillow-11.1.0 pyparsing-3.2.1 python-dateutil-2.9.0.post0 scikit-image-0.18.3 scikit-learn-1.6.0 scipy-1.13.1 six-1.17.0 threadpoolctl-3.5.0 tifffile-2024.8.30 zipp-3.21.0
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote: 
+remote: -----> Compressing...
+remote:        Done: 167.6M
+remote: -----> Launching...
+remote:        Released v4
+remote:        https://wine-q-6183667d8f14.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy... done.
+To https://git.heroku.com/wine-q.git
+   1111af3..b8c61e7  main -> main
+(base) riyagaur@Riyas-MacBook flask app % heroku open                    
+(base) riyagaur@Riyas-MacBook flask app % heroku open
+(base) riyagaur@Riyas-MacBook flask app % git add app.py
+git commit -m "Added API endpoint for predictions"
+git push heroku main
+
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+	modified:   Procfile
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	__pycache__/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+(base) riyagaur@Riyas-MacBook flask app % curl -X POST https://<wine-q>.herokuapp.com/predict \   
+-H "Content-Type: application/json" \
+-d '{"features": [7.4, 0.7, 0.0, 1.9, 0.076, 11.0, 34.0, 0.9978, 3.51, 0.56, 9.4]}'
+
+zsh: no such file or directory: wine-q
+(base) riyagaur@Riyas-MacBook flask app % heroku logs --tail
+
+2025-01-04T17:06:06.840964+00:00 app[api]: Deploy 1111af34 by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:06:06.859481+00:00 app[api]: Scaled to web@1:Basic by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:06:13.524586+00:00 heroku[web.1]: Starting process with command `python app.py`
+2025-01-04T17:06:14.004636+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2025-01-04T17:06:14.004720+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2025-01-04T17:06:14.161696+00:00 app[web.1]: Traceback (most recent call last):
+2025-01-04T17:06:14.161697+00:00 app[web.1]: File "/app/app.py", line 1, in <module>
+2025-01-04T17:06:14.161743+00:00 app[web.1]: from flask import Flask, request, jsonify
+2025-01-04T17:06:14.161744+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/__init__.py", line 5, in <module>
+2025-01-04T17:06:14.161778+00:00 app[web.1]: from .app import Flask as Flask
+2025-01-04T17:06:14.161779+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 30, in <module>
+2025-01-04T17:06:14.161812+00:00 app[web.1]: from werkzeug.urls import url_quote
+2025-01-04T17:06:14.161822+00:00 app[web.1]: ImportError: cannot import name 'url_quote' from 'werkzeug.urls' (/app/.heroku/python/lib/python3.9/site-packages/werkzeug/urls.py)
+2025-01-04T17:06:14.219610+00:00 heroku[web.1]: Process exited with status 1
+2025-01-04T17:06:14.243141+00:00 heroku[web.1]: State changed from starting to crashed
+2025-01-04T17:06:14.245972+00:00 heroku[web.1]: State changed from crashed to starting
+2025-01-04T17:06:21.475168+00:00 heroku[web.1]: Starting process with command `python app.py`
+2025-01-04T17:06:22.167454+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2025-01-04T17:06:22.167470+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2025-01-04T17:06:22.363890+00:00 app[web.1]: Traceback (most recent call last):
+2025-01-04T17:06:22.363892+00:00 app[web.1]: File "/app/app.py", line 1, in <module>
+2025-01-04T17:06:22.363892+00:00 app[web.1]: from flask import Flask, request, jsonify
+2025-01-04T17:06:22.363892+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/__init__.py", line 5, in <module>
+2025-01-04T17:06:22.363893+00:00 app[web.1]: from .app import Flask as Flask
+2025-01-04T17:06:22.363893+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 30, in <module>
+2025-01-04T17:06:22.363893+00:00 app[web.1]: from werkzeug.urls import url_quote
+2025-01-04T17:06:22.363894+00:00 app[web.1]: ImportError: cannot import name 'url_quote' from 'werkzeug.urls' (/app/.heroku/python/lib/python3.9/site-packages/werkzeug/urls.py)
+2025-01-04T17:06:22.455652+00:00 heroku[web.1]: Process exited with status 1
+2025-01-04T17:06:22.487584+00:00 heroku[web.1]: State changed from starting to crashed
+2025-01-04T17:06:39.000000+00:00 app[api]: Build succeeded
+2025-01-04T17:08:35.339953+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=f0034949-c88a-48fb-9509-95ebbae0bb56 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:08:35.849021+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wine-q-6183667d8f14.herokuapp.com request_id=e8606853-2fcd-422a-9fc1-cfe4aef5b324 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:10:09.607928+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=04d1651b-c51b-4f7e-8229-417542f51127 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:19:16.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:19:33.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/0d36b0ff-91e8-48ae-b0fb-58f46894d82c
+2025-01-04T17:29:50.392556+00:00 heroku[web.1]: State changed from crashed to starting
+2025-01-04T17:29:57.647488+00:00 heroku[web.1]: Starting process with command `python app.py`
+2025-01-04T17:29:58.326065+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2025-01-04T17:29:58.326191+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2025-01-04T17:29:58.517903+00:00 app[web.1]: Traceback (most recent call last):
+2025-01-04T17:29:58.517904+00:00 app[web.1]: File "/app/app.py", line 1, in <module>
+2025-01-04T17:29:58.517969+00:00 app[web.1]: from flask import Flask, request, jsonify
+2025-01-04T17:29:58.517971+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/__init__.py", line 5, in <module>
+2025-01-04T17:29:58.518016+00:00 app[web.1]: from .app import Flask as Flask
+2025-01-04T17:29:58.518017+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 30, in <module>
+2025-01-04T17:29:58.518057+00:00 app[web.1]: from werkzeug.urls import url_quote
+2025-01-04T17:29:58.518068+00:00 app[web.1]: ImportError: cannot import name 'url_quote' from 'werkzeug.urls' (/app/.heroku/python/lib/python3.9/site-packages/werkzeug/urls.py)
+2025-01-04T17:29:58.582535+00:00 heroku[web.1]: Process exited with status 1
+2025-01-04T17:29:58.609854+00:00 heroku[web.1]: State changed from starting to crashed
+2025-01-04T17:34:54.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:35:12.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/6a8f69df-a803-4fe6-86b8-ed62891b6e93
+2025-01-04T17:42:39.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:42:54.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/e8497637-a26f-48c5-97ac-27751a5cd58a/activity/builds/6b7221d1-8aed-4f35-a0e9-61c82d5d27a8
+2025-01-04T17:43:14.887880+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=7ce77bf5-baf5-4f2d-9bf8-917400df697f fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:45:54.000000+00:00 app[api]: Build started by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:46:43.728884+00:00 app[api]: Release v4 created by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:46:43.728884+00:00 app[api]: Deploy b8c61e78 by user 18btrci040@jainuniversity.ac.in
+2025-01-04T17:46:44.402540+00:00 heroku[web.1]: State changed from crashed to starting
+2025-01-04T17:46:50.502321+00:00 heroku[web.1]: Starting process with command `python app.py`
+2025-01-04T17:46:51.082263+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2025-01-04T17:46:51.082377+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2025-01-04T17:46:51.828628+00:00 app[web.1]: * Serving Flask app 'app'
+2025-01-04T17:46:51.828648+00:00 app[web.1]: * Debug mode: on
+2025-01-04T17:46:51.833139+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+2025-01-04T17:46:51.833141+00:00 app[web.1]: * Running on http://127.0.0.1:5000
+2025-01-04T17:46:51.833159+00:00 app[web.1]: Press CTRL+C to quit
+2025-01-04T17:46:51.833747+00:00 app[web.1]: * Restarting with stat
+2025-01-04T17:46:52.511958+00:00 app[web.1]: * Debugger is active!
+2025-01-04T17:46:52.512394+00:00 app[web.1]: * Debugger PIN: 679-178-824
+2025-01-04T17:47:08.000000+00:00 app[api]: Build succeeded
+2025-01-04T17:47:50.638879+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2025-01-04T17:47:50.651062+00:00 heroku[web.1]: Stopping process with SIGKILL
+2025-01-04T17:47:50.711241+00:00 heroku[web.1]: Process exited with status 137
+2025-01-04T17:47:50.735901+00:00 heroku[web.1]: State changed from starting to crashed
+2025-01-04T17:47:50.739469+00:00 heroku[web.1]: State changed from crashed to starting
+2025-01-04T17:47:57.231403+00:00 heroku[web.1]: Starting process with command `python app.py`
+2025-01-04T17:47:57.793462+00:00 app[web.1]: Python buildpack: Detected 512 MB available memory and 8 CPU cores.
+2025-01-04T17:47:57.793587+00:00 app[web.1]: Python buildpack: Defaulting WEB_CONCURRENCY to 2 based on the available memory.
+2025-01-04T17:47:58.518781+00:00 app[web.1]: * Serving Flask app 'app'
+2025-01-04T17:47:58.518808+00:00 app[web.1]: * Debug mode: on
+2025-01-04T17:47:58.523788+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+2025-01-04T17:47:58.523789+00:00 app[web.1]: * Running on http://127.0.0.1:5000
+2025-01-04T17:47:58.523836+00:00 app[web.1]: Press CTRL+C to quit
+2025-01-04T17:47:58.524645+00:00 app[web.1]: * Restarting with stat
+2025-01-04T17:47:59.195319+00:00 app[web.1]: * Debugger is active!
+2025-01-04T17:47:59.195695+00:00 app[web.1]: * Debugger PIN: 433-679-723
+2025-01-04T17:48:37.555476+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=4adcaaa2-5aee-47f6-b4b3-dac1c2ffcc52 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:48:56.999033+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=c023c0b5-5abe-4890-a000-f991cf142cbe fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:48:57.817325+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2025-01-04T17:48:57.834913+00:00 heroku[web.1]: Stopping process with SIGKILL
+2025-01-04T17:48:57.908345+00:00 heroku[web.1]: Process exited with status 137
+2025-01-04T17:48:57.937890+00:00 heroku[web.1]: State changed from starting to crashed
+2025-01-04T17:48:59.002595+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/apple-touch-icon-precomposed.png" host=wine-q-6183667d8f14.herokuapp.com request_id=8d3ebe4f-3f12-40bc-b8f6-2df1494f7d7e fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:48:59.092152+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/apple-touch-icon.png" host=wine-q-6183667d8f14.herokuapp.com request_id=a8e21ff5-3507-484d-9226-3fce33f2e271 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:48:59.093742+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wine-q-6183667d8f14.herokuapp.com request_id=fa3ff7c9-3a19-4e9c-995f-b740412b6213 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:48:59.100857+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=ef49c572-fbc4-4cc6-ae3e-b9dd4498b1b2 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:48:59.896012+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=0fa344fc-1549-4fb5-bf14-f829c94787cb fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:49:01.314943+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=1c033e1e-5046-487e-a667-736540137afc fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:50:01.177462+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wine-q-6183667d8f14.herokuapp.com request_id=9c424faf-27a9-46eb-8fa0-32dfea015c2e fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+2025-01-04T17:50:02.015637+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wine-q-6183667d8f14.herokuapp.com request_id=050efe93-470e-4a16-8305-a175b077d539 fwd="76.98.205.9" dyno= connect= service= status=503 bytes= protocol=https
+^C%                                                                                    (base) riyagaur@Riyas-MacBook flask app %   
